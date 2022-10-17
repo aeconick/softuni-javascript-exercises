@@ -7,15 +7,15 @@
         // {
         //     "args": [
         //         "-u",
-        //         "bdd",
+        //         "tdd",
         //         "--timeout",
         //         "999999",
         //         "--colors",
-        //         "${file}"
+        //         "${workspaceFolder}/test"
         //     ],
         //     "internalConsoleOptions": "openOnSessionStart",
         //     "name": "Mocha Tests",
-        //     "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+        //     "program": "${file}",
         //     "request": "launch",
         //     "skipFiles": [
         //         "<node_internals>/**"
